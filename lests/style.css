@@ -1,0 +1,50 @@
+
+.container{
+    max-width: 1170px;
+    /* margin:  auto;
+    padding: 40px auto; */
+}
+
+/* header */
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+nav {
+    background-color: green !important;
+    
+}
+nav ul li a {
+    color:#fff
+}
+.fa-equals {
+font-size: larger;
+}
+.right-header {
+	text-align: right;
+}
+
+.banner-btn{
+    display: flex;
+}
+.header-conent{
+    display: flex;
+    justify-content: right;
+}
+.banner-content {
+	width: 50%;
+}
+.banner-content h2 {
+	font-size: 45px;
+	font-weight: 700;
+	margin-top: 57px;
+}
+.banner-img {
+	display: flex;
+	justify-content: flex-end;
+}
+.banner-img img {
+	width: 31%;
+}
+

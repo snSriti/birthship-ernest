@@ -1,0 +1,56 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+  }
+  
+  /* LG Device :992px. */
+  @media (min-width: 992px) and (max-width: 1200px) {
+ 
+  }
+  
+   
+  /* MD Device :768px. */
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+  }
+   
+  /* SM Small Device :550px. */
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+  
+   
+  }
+  /* SM Small Device :320px. */
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .banner-btn {
+        display: block;
+    }
+    .header-area {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-content {
+        width: 100%;
+    }
+    .banner-btn {
+        display: block;
+    }
+    .btn-1 button {
+        width: 60%;;
+    }
+    .btn-2 button {
+        margin-left: 0;
+        width: 60%;
+        margin-top: 10px;
+    }
+    .banner-content h2 {
+        font-size: 32px;
+        margin-top: 38px;
+    }
+    .banner-img img {
+        margin-top: 100px;
+        width: 76%;
+    }
+    .banner-btn{
+        display: block;
+    }
+  }
+  

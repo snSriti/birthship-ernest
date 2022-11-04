@@ -1,0 +1,233 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+  .footer-nav-toggle-label {
+    display: none;
+  }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .footer-nav-toggle-label {
+    display: none;
+  }
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* header */
+  .nav-toggle-label {
+    display: block;
+  }
+  .footer-nav-toggle-label {
+    display: block;
+  }
+  .navigation {
+    position: absolute;
+    width: 130px;
+    top: 186px;
+    right: 0;
+    padding: 20px 0 20px 35px;
+    z-index: 99;
+    margin: 0;
+    background: #006532;
+    transform: translateY(-500px);
+    transform-origin: top;
+    transition: 0.3s linear;
+  }
+  .navigation li {
+    display: block;
+    margin-top: 10px;
+  }
+  .navigation li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    padding: 0;
+    text-transform: uppercase;
+    transition: 0.3s linear;
+  }
+  #nav-toggle:checked ~ .navigation {
+    transform: translateY(0px);
+  }
+  .logo img {
+    max-width: 165px;
+  }
+  .navigation li a {
+    font-size: 15px;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .banner-content h2 {
+    font-size: 23px;
+  }
+  .banner-content p {
+    line-height: 25px;
+  }
+  .boost-img img {
+    width: 100%;
+  }
+  .boost-content h2 {
+    font-size: 20px;
+    line-height: 41px;
+  }
+  .boost-content p {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  button {
+    font-size: 12px;
+  }
+  .unlimited-img img {
+    width: 100%;
+  }
+  .unlimited-content p {
+    line-height: 23px;
+    font-size: 15px;
+  }
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* header */
+  .middle-menu {
+    display: block;
+  }
+
+  .middle-menu-text {
+    margin-bottom: 15px;
+  }
+  nav {
+    display: block;
+    height: 133px;
+  }
+  .log-icon {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+  }
+  .nav-toggle-label {
+    display: block;
+    top: -36%;
+    position: relative;
+    left: 92%;
+  }
+  .footer-nav-toggle-label {
+    display: block;
+  }
+  .navigation {
+    position: absolute;
+    width: 130px;
+    top: 56%;
+    right: 0;
+    padding: 20px 0 20px 35px;
+    z-index: 99;
+    margin: 0;
+    background: #006532;
+    transform: translateY(-500px);
+    transform-origin: top;
+    transition: 0.3s linear;
+  }
+  .navigation li {
+    display: block;
+    margin-top: 10px;
+  }
+  .navigation li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    padding: 0;
+    text-transform: uppercase;
+    transition: 0.3s linear;
+  }
+  #nav-toggle:checked ~ .navigation {
+    transform: translateY(0px);
+  }
+  
+  .logo img {
+    max-width: 165px;
+  }
+  .navigation li a {
+    font-size: 15px;
+  }
+  .banner {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .banner-content h2 {
+    font-size: 23px;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .banner-content p {
+    font-size: 13px;
+  }
+  .longer-content {
+    width: 100%;
+  }
+  button {
+    font-size: 10px;
+  }
+  .boost {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .boost-img img {
+    width: 100%;
+  }
+  .boost-content h2 {
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 600;
+  }
+  .boost-content p {
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .boost-content p {
+    line-height: 22px;
+
+  }
+  .how-content h2 {
+    font-size: 20px;
+  }
+  .how-content p {
+    font-size: 14px;
+  }
+  .how-content p {
+    line-height: 25px;;
+  }
+  .audience-content h2 {
+    font-size: 15px;
+  }
+  .audience-content p {
+    font-size: 13px;
+  }
+  .unlimited {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .unlimited-img img {
+    width: 104%;
+  }
+  .unlimited-content h2 {
+    font-size: 25px;
+  }
+  .unlimited-content p {
+    line-height: 22px;
+    font-size: 13px;
+  }
+  .unlimited-img img {
+    width: 95%;
+  }
+}
+

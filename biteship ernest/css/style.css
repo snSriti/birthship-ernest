@@ -1,0 +1,240 @@
+/*====================================================
+                DEFAULT VALUES:
+
+                Font Family                 : Roboto Condensed
+                cyan                        : #34c6d3       (Buttons, Icons, Links, Lines & Backgrounds)
+                Steel Gray                  : #41464b       (Headings)
+                Blue Bayoux                 : #64707b       (Paragraphs)
+                White                       : #fff          (Text With Black Backgrounds)
+                Black                       : #000 
+
+======================================================*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn-main {
+  border: 2px solid;
+  background: transparent;
+  outline: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 12px 25px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.btn-white {
+  color: #fff;
+}
+.btn-white:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #41464b;
+}
+.btn-cyan {
+  color: #34c6d3;
+}
+.btn-cyan:hover {
+  background: #34c6d3;
+  color: #fff;
+  border-color: #34c6d3;
+}
+.section-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #41464b;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+.section-title-underline {
+  width: 30px;
+  height: 3px;
+  background-color: #34c6d3;
+  margin: 30px auto;
+}
+
+/* header css */
+
+/* navigation menu */
+#nav-toggle,
+.nav-toggle-label {
+  display: none;
+}
+.nav-toggle-label i {
+  color: #fff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.navigation li {
+  display: inline-block;
+  list-style: none;
+}
+.navigation li a {
+  text-decoration: none;
+  color: #41464b;
+  font-weight: 700;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  transition: 0.3s linear;
+}
+.navigation li a:hover {
+  color: #34c6d3;
+}
+.logo img {
+  max-width: 200px;
+}
+
+/* banner */
+.banner-area {
+	margin-bottom: 100px;
+}
+.banner{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 6rem;
+}
+.banner-img img {
+	width: 90%;
+}
+button {
+	background: #2E7705;
+	border: none;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 2px;
+	cursor: pointer;
+	font-weight: bold;
+}
+/* longer-area */
+.longer-area{
+  background: url(../img/longer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  padding: 80px;
+}
+
+.btn {
+	background: #fff;
+	color: #2e7705;
+	font-size: 13px;
+}
+.longer-content {
+	width: 50%;
+}
+.longer-content h2 {
+	color: #fff;
+}
+.longer-content h2 a {
+	color: #fff;
+}
+
+/* how */
+.how-area {
+	background: #ECECEC;
+	padding: 40px;
+}
+.how-content{
+  text-align: center;
+}
+.how-content p {
+	line-height: 36px;
+	color: #555;
+}
+
+/* longer-area */
+
+.btn {
+	background: #fff;
+	color: #2e7705;
+	font-size: 13px;
+}
+.longer-content {
+	width: 50%;
+}
+.longer-content h2 {
+	color: #fff;
+}
+.longer-content h2 a {
+	color: #fff;
+}
+
+/* boost */
+.boost{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 4rem;
+}
+.boost-content h2 {
+	font-size: 30px;
+	line-height: 50px;
+}
+.boost-content p {
+	color: #555;
+	margin-bottom: 40px;
+	line-height: 30px;
+}
+.boost-img img {
+	width: 100%;
+}
+/* how */
+.how-area {
+	background: #ECECEC;
+	padding: 40px;
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+.how-content{
+  text-align: center;
+}
+.how-content p {
+	line-height: 36px;
+	color: #555;
+}
+
+/*audience */
+.audience-area{
+  background: url(../img/audionce.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.audience-content {
+	text-align: center;
+	padding: 58px;
+	color: #fff;
+	margin-bottom: 100px;
+}
+.audience-content h2 {
+	font-size: 35px;
+	font-weight: 600;
+}
+/* .unlimited */
+.unlimited{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 4rem;
+}
+.unlimited-content h2 {
+	font-size: 30px;
+	line-height: 50px;
+}
+.unlimited-content p {
+	color: #555;
+	margin-bottom: 40px;
+	line-height: 30px;
+}
+.unlimited-img img {
+	width: 100%;
+}

@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+nav {
+    background-color: green !important;
+    
+}
+nav ul li a {
+    color:#fff
+}
+.fa-equals {
+font-size: larger;
+}
+.border{
+    border:1px solid ;
+    width:160px;
+    height: 30px !important;
+    margin-left: 50px ;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+.border a{
+    text-align: center;
+    margin-top: -6px !important;
+}
+.mail {
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+}
+.mailP{
+    width: 80%;
+}
+.btn1 {
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+.btn2 {
+    border:2px solid green;
+    color: green;
+    background-color: #fff;
+}
+.Area1 img {
+    width: 80px;
+    height: 80px;
+}
+
+.ShadowBG{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+}
+.nameText {
+    margin-left: 130px;
+}
+
+
+/* responsive.css */
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .footer-nav-toggle-label {
+      display: block;
+    }
+  }
+  
+  /* LG Device :992px. */
+  @media (min-width: 992px) and (max-width: 1200px) {
+  
+    .footer-nav-toggle-label {
+      display: block;
+    }
+    .border {
+        margin-left: 0;
+    }
+    .ShadowBG {
+        height: auto !important;
+    }
+    .button button {
+        margin-bottom: 19px;
+    }
+  }
+  
+   
+  /* MD Device :768px. */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .border {
+        margin-left: 0;
+    }
+    .ShadowBG {
+        height: auto !important;
+    }
+    .button button {
+        margin-bottom: 19px;
+    }
+    .navbar-toggler {
+        border: 2px solid #fff;
+    }
+  }
+   
+  /* SM Small Device :320px. */
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .navbar-toggler {
+        border: 2px solid #fff;
+    }
+    .border {
+        margin-left: 0;
+    }
+    .mt-5, .my-5 {
+        margin-top: 10px;
+    }
+    .btn.mt-5.btn1 {
+        margin-bottom: 10px;
+    }
+    .mt-5, .my-5 {
+        margin-top: 0 !important;
+    }
+    .ShadowBG {
+        height: auto !important;
+    }
+    .area2 {
+        margin-top: 35px;
+        margin-left: 46px;
+    }
+    .area-text {
+        margin-left: 0;
+    }
+    .mailP {
+        margin-bottom: 20px;
+    }
+  }
+  
